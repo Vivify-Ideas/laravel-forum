@@ -1,8 +1,8 @@
-<?php namespace Riari\Forum\Models;
+<?php namespace VivifyIdeas\Forum\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Riari\Forum\Models\Traits\HasAuthor;
-use Riari\Forum\Support\Traits\CachesData;
+use VivifyIdeas\Forum\Models\Traits\HasAuthor;
+use VivifyIdeas\Forum\Support\Traits\CachesData;
 
 class Post extends BaseModel
 {

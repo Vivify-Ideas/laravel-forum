@@ -1,6 +1,6 @@
-<?php namespace Riari\Forum\Policies;
+<?php namespace VivifyIdeas\Forum\Policies;
 
-use Riari\Forum\Models\Category;
+use VivifyIdeas\Forum\Models\Category;
 
 class CategoryPolicy
 {

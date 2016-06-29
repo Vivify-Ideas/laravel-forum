@@ -1,4 +1,4 @@
-<?php namespace Riari\Forum\Support\Traits;
+<?php namespace VivifyIdeas\Forum\Support\Traits;
 
 use Cache;
 use ReflectionClass;

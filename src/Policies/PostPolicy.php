@@ -1,7 +1,7 @@
-<?php namespace Riari\Forum\Policies;
+<?php namespace VivifyIdeas\Forum\Policies;
 
 use Illuminate\Support\Facades\Gate;
-use Riari\Forum\Models\Post;
+use VivifyIdeas\Forum\Models\Post;
 
 class PostPolicy
 {

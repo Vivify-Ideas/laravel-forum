@@ -1,4 +1,4 @@
-<?php namespace Riari\Forum\Models\Observers;
+<?php namespace VivifyIdeas\Forum\Models\Observers;
 
 use Carbon\Carbon;
 
