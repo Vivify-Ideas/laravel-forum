@@ -1,10 +1,10 @@
-<?php namespace VivifyIdeas\Forum\Models;
+<?php namespace Riari\Forum\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Gate;
-use VivifyIdeas\Forum\Models\Category;
-use VivifyIdeas\Forum\Models\Post;
-use VivifyIdeas\Forum\Models\Traits\HasAuthor;
+use Riari\Forum\Models\Category;
+use Riari\Forum\Models\Post;
+use Riari\Forum\Models\Traits\HasAuthor;
 
 class Thread extends BaseModel
 {

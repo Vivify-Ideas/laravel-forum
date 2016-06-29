@@ -1,13 +1,13 @@
 <?php
 
-namespace VivifyIdeas\Forum\Support\Traits;
+namespace Riari\Forum\Support\Traits;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\UrlGenerator;
 use Illuminate\Contracts\Validation\Factory;
 use Illuminate\Contracts\Validation\Validator;
-use VivifyIdeas\Forum\Http\Exception\ApiValidationException;
+use Riari\Forum\Http\Exception\ApiValidationException;
 
 trait ValidatesRequests
 {

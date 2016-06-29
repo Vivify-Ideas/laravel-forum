@@ -1,6 +1,6 @@
 <?php
 
-namespace VivifyIdeas\Forum\Http\Exception;
+namespace Riari\Forum\Http\Exception;
 
 use Exception;
 

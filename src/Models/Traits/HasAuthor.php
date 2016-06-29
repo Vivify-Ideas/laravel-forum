@@ -1,4 +1,4 @@
-<?php namespace VivifyIdeas\Forum\Models\Traits;
+<?php namespace Riari\Forum\Models\Traits;
 
 trait HasAuthor
 {

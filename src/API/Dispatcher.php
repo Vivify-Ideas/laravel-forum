@@ -1,8 +1,8 @@
-<?php namespace VivifyIdeas\Forum\API;
+<?php namespace Riari\Forum\API;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use VivifyIdeas\Forum\Contracts\API\ReceiverContract;
+use Riari\Forum\Contracts\API\ReceiverContract;
 
 class Dispatcher
 {

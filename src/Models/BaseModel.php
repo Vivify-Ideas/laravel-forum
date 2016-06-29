@@ -1,4 +1,4 @@
-<?php namespace VivifyIdeas\Forum\Models;
+<?php namespace Riari\Forum\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;

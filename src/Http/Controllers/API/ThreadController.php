@@ -1,11 +1,11 @@
-<?php namespace VivifyIdeas\Forum\Http\Controllers\API;
+<?php namespace Riari\Forum\Http\Controllers\API;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
-use VivifyIdeas\Forum\Models\Category;
-use VivifyIdeas\Forum\Models\Post;
-use VivifyIdeas\Forum\Models\Thread;
+use Riari\Forum\Models\Category;
+use Riari\Forum\Models\Post;
+use Riari\Forum\Models\Thread;
 
 class ThreadController extends BaseController
 {

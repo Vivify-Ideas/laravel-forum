@@ -1,15 +1,15 @@
-<?php namespace VivifyIdeas\Forum;
+<?php namespace Riari\Forum;
 
 use Illuminate\Auth\Access\Gate;
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use VivifyIdeas\Forum\Http\Middleware\APIAuth;
-use VivifyIdeas\Forum\Models\Post;
-use VivifyIdeas\Forum\Models\Thread;
-use VivifyIdeas\Forum\Models\Observers\PostObserver;
-use VivifyIdeas\Forum\Models\Observers\ThreadObserver;
+use Riari\Forum\Http\Middleware\APIAuth;
+use Riari\Forum\Models\Post;
+use Riari\Forum\Models\Thread;
+use Riari\Forum\Models\Observers\PostObserver;
+use Riari\Forum\Models\Observers\ThreadObserver;
 
 class ForumServiceProvider extends ServiceProvider
 {
@@ -50,7 +50,7 @@ class ForumServiceProvider extends ServiceProvider
         $this->setPublishables();
         $this->loadStaticFiles();
 
-        $this->namespace = 'VivifyIdeas\Forum\Http\Controllers';
+        $this->namespace = 'Riari\Forum\Http\Controllers';
 
         $this->observeModels();
 

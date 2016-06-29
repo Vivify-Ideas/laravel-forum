@@ -1,7 +1,7 @@
-<?php namespace VivifyIdeas\Forum\Models;
+<?php namespace Riari\Forum\Models;
 
 use Illuminate\Support\Facades\Gate;
-use VivifyIdeas\Forum\Support\Traits\CachesData;
+use Riari\Forum\Support\Traits\CachesData;
 
 class Category extends BaseModel
 {

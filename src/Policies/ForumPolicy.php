@@ -1,4 +1,4 @@
-<?php namespace VivifyIdeas\Forum\Policies;
+<?php namespace Riari\Forum\Policies;
 
 class ForumPolicy
 {

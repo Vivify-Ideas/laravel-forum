@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "VivifyIdeas\\Forum\\": "src"
+            "Riari\\Forum\\": "src"
         }
     },
     "suggest": {

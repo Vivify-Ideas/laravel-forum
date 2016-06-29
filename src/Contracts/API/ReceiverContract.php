@@ -1,4 +1,4 @@
-<?php namespace VivifyIdeas\Forum\Contracts\API;
+<?php namespace Riari\Forum\Contracts\API;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
