@@ -1,12 +1,12 @@
 <?php namespace Riari\Forum\Http\Controllers\API;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
-use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Illuminate\Http\Request;
 use Illuminate\Http\Exception\HttpResponseException;
 use Illuminate\Routing\Controller;
+use Riari\Forum\Support\Traits\ValidatesRequests;
 
 abstract class BaseController extends Controller
 {
@@ -256,7 +256,7 @@ abstract class BaseController extends Controller
         $validator = $this->getValidationFactory()->make($request->all(), $rules, $messages, $customAttributes);
 
         if ($validator->fails()) {
-            $this->throwValidationException($request, $validator);
+            $this->throwApiValidationException($request, $validator);
         }
     }
 
