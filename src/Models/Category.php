@@ -139,9 +139,7 @@ class Category extends BaseModel
      */
     public function getThreadCountAttribute()
     {
-        return $this->remember('threadCount', function () {
-            return $this->threads->count();
-        });
+        return $this->threads->count();
     }
 
     /**
@@ -151,17 +149,15 @@ class Category extends BaseModel
      */
     public function getPostCountAttribute()
     {
-        return $this->remember('postCount', function () {
-            $replyCount = 0;
+        $replyCount = 0;
 
-            $threads = $this->threads()->get(['id']);
+        $threads = $this->threads()->get(['id']);
 
-            foreach ($threads as $thread) {
-                $replyCount += $thread->posts->count() - 1;
-            }
+        foreach ($threads as $thread) {
+            $replyCount += $thread->posts->count() - 1;
+        }
 
-            return $replyCount;
-        });
+        return $replyCount;
     }
 
     /**
