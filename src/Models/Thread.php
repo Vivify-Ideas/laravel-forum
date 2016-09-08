@@ -88,6 +88,16 @@ class Thread extends BaseModel
     }
 
     /**
+     * Relationship: HistoryUrls.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function historyUrls()
+    {
+        return $this->morphMany('\ForumUrl', 'item');
+    }
+
+    /**
      * Scope: Recent threads.
      *
      * @param  \Illuminate\Database\Query\Builder  $query

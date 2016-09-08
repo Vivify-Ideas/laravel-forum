@@ -72,6 +72,16 @@ class Category extends BaseModel
     }
 
     /**
+     * Relationship: HistoryUrls.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function historyUrls()
+    {
+        return $this->morphMany('\ForumUrl', 'item');
+    }
+
+    /**
      * Attribute: Child categories.
      *
      * @return \Illuminate\Database\Eloquent\Collection
